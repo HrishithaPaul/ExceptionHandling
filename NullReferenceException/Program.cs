@@ -7,11 +7,9 @@ namespace NullReferenceExceptionHandling
         {
             try
             {
-                 void Method1()
-                {
+                 string Name=null;
+                 Console.WriteLine(Name.Length);
 
-                }
-                Method1();
             }
             catch (NullReferenceException ex)
             {
